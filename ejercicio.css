@@ -1,0 +1,42 @@
+{
+   margin: 0;
+    padding: 0;
+}
+.caja_numeros{
+    width: 800px;
+   
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+.caja_numeros div{
+    width: 80px;
+    height: 90px;
+    border: 5px solid #000;
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    text-align: center;
+}
+.f{
+    border: 1px solid #000;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    background-color: aquamarine;
+}
+section{
+    width: 1300px;
+}
+.titulo{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
